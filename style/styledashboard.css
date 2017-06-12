@@ -1,20 +1,19 @@
 @font-face {
     font-family: FiraSansCondensedRegular;
-    src: url(../fonts/FiraSansCondensed-Regular.otf);
+    src: url(Fonts/FiraSansCondensed-Regular.otf);
 }
 
 @font-face {
     font-family: FiraSansCondensedLight;
-    src: url(../fonts/FiraSansCondensed-Light.otf);
+    src: url(Fonts/FiraSansCondensed-Light.otf);
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
-    overflow: hidden;
+body {
     background-color: #F1F1F1;
 }
 
@@ -22,272 +21,227 @@ body{
     display: table-cell;
     text-align: center;
     float: left;
+    position: fixed;
 }
 
 .vertical-menu a {
-    background-color:rgb(36, 57, 125); /* Grey background color */
-    color: black; /* Black text color */
-    display: block; /* Make the links appear below each other */
-    text-decoration: none; /* Remove underline from links */
-    height: 16.666666666668vh;
+    background-color: rgb(36, 57, 125);
+    /* Grey background color */
+    color: black;
+    /* Black text color */
+    display: block;
+    /* Make the links appear below each other */
+    text-decoration: none;
+    /* Remove underline from links */
+    height: 20vh;
     width: 5vw;
 }
 
-.vertical-menu img{
+.vertical-menu img {
     max-width: 100%;
     margin-top: 50%;
 }
 
 .vertical-menu a:hover {
-    background-color:rgb(183, 218, 254); /* Dark grey background on mouse-over */
-    transform: scale(1.2,1); /* Standard syntax */
+    background-color: rgb(183, 218, 254);
+    /* Dark grey background on mouse-over */
+    transform: scale(1.2, 1);
+    /* Standard syntax */
 }
 
-.wrapper{
+.wrapper {
     width: 100vw;
+    height: 100vh;
     background-color: #F1F1F1;
 }
 
-.box {
-	position: relative;
-	display: block;
-	float: left;
-    width: 250px;
-    margin-left: 1.5em;
-    margin-bottom: 0.5em ;
-    padding: 0 10px 0;
-    color: #666;
-    background: #fff;
-    border: 1px solid #FF6620;
-    border-radius: 3px;
-    margin-top: 50px;
-    margin-left: 45px;
-
+.container {
+    width: 95vw;
+    height: 100vh;
+    background-color: #f1f1f1;
 }
 
-.box h3 {
-	position: relative;
-    display: block;
-    height: 20px;
-    line-height: 1.3em;
-    width: 25vw;
-    margin-bottom: 40px;
-    margin: 0;
-    padding: 5px 10px;
-    left: -10px;
-    top: 8px;
-    color: black;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    background: #F1F1F1;
-    font-family: FiraSansCondensedRegular;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
-}
-
-.box h4 {
-	position: relative;
-    display: block;
-    height: 20px;
-    line-height: 1.3em;
-    width: 15vw;
-    margin-bottom: 40px;
-    margin: 0;
-    padding: 5px 10px;
-    left: -10px;
-    top: 8px;
-    color: black;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    background: #F1F1F1;
-    font-family: FiraSansCondensedRegular;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
-}
-
-.box h5 {
-	position: relative;
-    display: block;
-    height: 20px;
-    line-height: 1.3em;
-    width: 18vw;
-    margin-bottom: 40px;
-    margin: 0;
-    padding: 5px 10px;
-    left: -10px;
-    top: 8px;
-    color: black;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    background: #F1F1F1;
-    font-family: FiraSansCondensedRegular;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
-}
-
-.box h9 {
-	position: relative;
-    display: inline-block;
-    height: 20px;
-    line-height: 1.3em;
-    width: 30vw;
-    margin-bottom: 40px;
-    margin: 0;
-    padding: 5px 10px;
-    left: -10px;
-    top: 8px;
-    color: black;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    background: #F1F1F1;
-    font-family: FiraSansCondensedRegular;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
-}
-
-.box h10 {
-	position: relative;
-    display: inline-block;
-    height: 20px;
-    line-height: 1.3em;
+.blok1 {
+    height: 44vh;
     width: 20vw;
-    margin-bottom: 40px;
-    margin: 0;
-    padding: 5px 10px;
-    left: -10px;
-    top: 8px;
-    color: black;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    background: #F1F1F1;
-    font-family: FiraSansCondensedRegular;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
+    background-color: lightgrey;
+    border: 1px solid orange;
+    margin-left: 7vw;
+    padding-top: 5.5vh;
 }
 
-.box h11 {
-	position: relative;
-    display: inline-block;
-    height: 20px;
-    line-height: 1.3em;
-    width: 580px;
-    margin-bottom: 40px;
-    margin: 0;
-    padding: 5px 10px;
-    left: -10px;
-    top: 8px;
-    color: black;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    background: #F1F1F1;
-    font-family: FiraSansCondensedRegular;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
+.blok2 {
+    height: 44vh;
+    width: 20vw;
+    background-color: lightgrey;
+    border: 1px solid orange;
+    margin-left: 7vw;
+    margin-top: 5vh;
 }
 
-.box h12 {
-	position: relative;
-    display: inline-block;
-    height: 20px;
-    line-height: 1.3em;
-    width: 28vw;
-    margin-bottom: 40px;
-    margin: 0;
-    padding: 5px 10px;
-    left: -10px;
-    top: 8px;
-    color: black;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    background: #F1F1F1;
-    font-family: FiraSansCondensedRegular;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
+.blok3 {
+    height: 35vh;
+    width: 25vw;
+    background-color: lightgrey;
+    border: 1px solid orange;
+    margin-left: 29.5vw;
+    margin-top: -99vh;
 }
 
-.tekst1{
-    margin-top: 20px;
-    text-align: left;
-    font-family: FiraSansCondensedLight;
-    font-size: 1.5em;
+.blok4 {
+    height: 35vh;
+    width: 25vw;
+    background-color: lightgrey;
+    border: 1px solid orange;
+    margin-left: 29.5vw;
+    margin-top: 2.5vh;
+}
+
+.blok5 {
+    height: 23vh;
+    width: 25vw;
+    background-color: lightgrey;
+    border: 1px solid orange;
+    margin-left: 29.5vw;
+    margin-top: 2.5vh;
+}
+
+.blok6 {
+    height: 15.8vh;
+    width: 40vw;
+    background-color: lightgrey;
+    border: 1px solid orange;
+    margin-left: 57vw;
+    margin-top: -98.5vh;
+}
+
+.blok7 {
+    height: 15.8vh;
+    width: 40vw;
+    background-color: lightgrey;
+    border: 1px solid orange;
+    margin-left: 57vw;
+    margin-top: 4vh;
+}
+
+.blok8 {
+    height: 15.8vh;
+    width: 40vw;
+    background-color: lightgrey;
+    border: 1px solid orange;
+    margin-left: 57vw;
+    margin-top: 5vh;
+}
+
+.blok9 {
+    height: 15.8vh;
+    width: 40vw;
+    background-color: lightgrey;
+    border: 1px solid orange;
+    margin-left: 57vw;
+    margin-top: 5vh;
+}
+
+.blok10 {
+    height: 15.8vh;
+    width: 40vw;
+    background-color: lightgrey;
+    border: 1px solid orange;
+    margin-left: 57vw;
+    margin-top: 4vh;
+}
+
+.tekst1 {
+    font-family: 'FiraSansCondensedRegular';
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(36, 57, 125);
     color: white;
+    box-shadow: 1px 5px #888888;
 }
 
-.tekst2{
-  margin-top: 15px;
-  text-align: left;
-    font-family: FiraSansCondensedLight;
-    font-size: 1.5em;
-  color: white;
+.tekst2 {
+    font-family: 'FiraSansCondensedRegular';
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5vh;
+    background-color: rgb(36, 57, 125);
+    color: white;
+    box-shadow: 1px 5px #888888;
 }
 
-.tekst3{
-  margin-top: 20px;
-  text-align: right;
-    font-family: FiraSansCondensedLight;
-    font-size: 1.5em;
-  color: white;
+.tekst3 {
+    font-family: 'FiraSansCondensedRegular';
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5vh;
+    background-color: rgb(36, 57, 125);
+    color: white;
+    box-shadow: 1px 5px #888888;
 }
 
-.tekst4{
-  margin-top: 20px;
-  text-align: left;
-    font-family: FiraSansCondensedLight;
-    font-size: 1.5em;
-  color: white;
+.tekst5 {
+    font-family: 'FiraSansCondensedRegular';
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5vh;
+    background-color: rgb(36, 57, 125);
+    color: white;
+    box-shadow: 1px 5px #888888;
 }
 
-.instellingen{
-  width: 100px;
-  height: 100px;
-  position: relative;
-  top: 20px;
-  left: 150px;
+.tekst6 {
+    font-family: 'FiraSansCondensedRegular';
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5vh;
+    background-color: rgb(36, 57, 125);
+    color: white;
+    box-shadow: 1px 5px #888888;
 }
 
-.facebook{
-  width: 50px;
-  height: 50px;
-  position: relative;
-  top: 40px;
-  left: 10px;
+.facebook {
+    width: 4vw;
+    height: 6vh;
+    position: relative;
+    top: 4vh;
+    left: 2vw;
 }
 
-.linkedin{
-  width: 50px;
-  height: 50px;
-  position: relative;
-  top: 40px;
-  left: 30px;
+.linkedin {
+    width: 4vw;
+    height: 6vh;
+    position: relative;
+    top: 4vh;
+    left: 3.5vw;
 }
 
-.instagram{
-  width: 50px;
-  height: 50px;
-  position: relative;
-  top: 40px;
-  left: 50px;
+.instagram {
+    width: 4vw;
+    height: 6vh;
+    position: relative;
+    top: 4vh;
+    left: 5vw;
 }
 
-.snapchat{
-  width: 50px;
-  height: 50px;
-  position: relative;
-  top: 40px;
-  left: 70px;
+.snapchat {
+    width: 4vw;
+    height: 6vh;
+    position: relative;
+    top: 4vh;
+    left: 6vw;
 }
 
-.forum{
-  width: 100px;
-  height: 100px;
-  position: relative;
-  top: 20px;
-  float: left;
+.recenteberichten {
+    margin-top: 5vh;
+    text-align: center;
+    font-family: 'FiraSansCondensedLight';
+    font-size: 12px;
+}
+
+.tekstrechts {
+    margin-top: 3vh;
+    text-align: center;
+    font-family: 'FiraSansCondensedLight';
+    font-size: 12px;
 }

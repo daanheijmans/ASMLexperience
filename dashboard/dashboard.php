@@ -1,78 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Menu platform</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="../style/styledashboard.css">
 </head>
+
 <body>
 <div class="wrapper">
     <div class="vertical-menu">
         <?php include_once "../menu_balk/menu.php" ?>
     </div>
-    <div class="box" style="height:46vh; width: 25vw; background-color: #b6daf4;">
-        <h3>Recente berichten</h3>
-        <div class="tekst4">
-            Een gebruiker heeft een reactie geplaatst op een van je projecten.<br /><br /> <strong>Klik hier om het bericht te lezen.</strong>
-            <br /><br />
-            Hete_boy_040 heeft gereageerd op je forum bericht.<br /><br /> <strong>Klik hier om het bericht te lezen.</strong>
-            <br /><br />
-            Je laatst gemaakte project is beoordeeld.<br /><br /> <strong>Klik hier om de beoordeling te zien.</strong>
-        </div>
-    </div>
-  <!-- Hieronder zijn de verschillende blokken gemaakt waarin de inhoud van het dashboard te vinden is. Deze kunnen qua formaat aangepast worden naar de inhoud die erin staat-->
-    <div class="box" style="height:20vh; width: 15vw; background-color: #b6daf4;">
-        <h4>Test</h4>
-    </div>
 
-    <div class="box" style="height:20vh; width: 18vw; background-color: #b6daf4;">
-        <h5>Recente feedback</h5>
-        <div class="tekst1">
-            Project101<br>
-            Ziet er goed uit! Ik zou echter wel even goed kijken naar de code om het wat overzichtelijker te maken.
-        </div>
-    </div>
+    <div class "container">
 
-    <div class="box" style="height:20vh; width: 15vw; background-color: #b6daf4;">
-        <h4>Mijn projecten</h4>
+
+    <div class="blok1">
+        <p class="tekst1">
+            Recente berichten
+        </p>
+
+        <p class="recenteberichten">
+            Een gebruiker heeft een reactie geplaatst op een van je projecten. <br /><br /><strong>Klik hier om het bericht te lezen</strong>
+            <br /><br /> U heeft uw wachtwoord al een lange tijd niet veranderd. <br /><br /><strong>Klik hier om deze te veranderen.</strong>
+        </p>
+    </div>
+    <div class="blok2">
+        <p class="tekst2">
+            Recente feedback
+        </p>
+        <p class="recenteberichten">
+            Wat een gaaf resultaat! Ben benieuwd naar de volgende projecten die je gaat maken! <br /><br /><strong>Klik hier om naar je project te gaan.</strong>
+            <br /><br /> Er hebben meerdere mensen gereageerd op je projecten <br /><br /><strong>Klik hier om deze te bekijken.</strong>
+        </p>
     </div>
 
-    <div class="box" style="height:20vh; width: 15vw; background-color: #b6daf4;">
-        <h4>Mijn profiel</h4>
+    <div class="blok3">
+        <p class="tekst3">
+            Nieuwe projecten
+        </p>
+        <p class="recenteberichten">
+            Er zijn nieuwe projecten die je kunt gaan maken! <br /><br /><strong>Klik hier om direct door te gaan naar de nieuwe projecten</strong>
+            <br /><br /> U heeft uw wachtwoord al een lange tijd niet veranderd. <br /><br /><strong>Klik hier om deze te veranderen.</strong>
+        </p>
     </div>
 
-    <div class="box" style="height:20vh; width: 15vw; background-color: #b6daf4;">
-        <h4>Nieuwe projecten</h4>
-        <div class="tekst2">
-            Er zijn nieuwe uitdagingen beschikbaar. <br /><br /><strong>Klik hier om door te gaan</strong>
-        </div>
+    <div class="blok4">
+        <p class="tekst3">
+            Recente berichten
+        </p>
     </div>
 
-    <div class="box" style="height:20vh; width: 30vw; background-color: #b6daf4;">
-        <h9>Forum</h9>
-        <img class="forum" src="../images/forum.png" />
-        <div class="tekst3">
-            Er zijn nieuwe leden bij gekomen. <strong>Klik hier om jezelf voor te stellen!</strong>
-
-        </div>
+    <div class="blok5">
+        <p class="tekst5">
+            Social media
+        </p>
+        <img class="facebook" src="images/facebook.png" />
+        <img class="linkedin" src="images/linkedin.png" />
+        <img class="instagram" src="images/instagram.png" />
+        <img class="snapchat" src="images/snapchat.png" />
     </div>
 
-    <div class="box" style="height:20vh; width: 20vw; background-color: #b6daf4;">
-        <h10>Social media</h10>
-        <img class="facebook" src="../images/facebook.png" />
-        <img class="linkedin" src="../images/linkedin.png" />
-        <img class="instagram" src="../images/instagram.png" />
-        <img class="snapchat" src="../images/snapchat.png" />
+    <div class="blok6">
+        <p class="tekst6">
+            Inbox
+        </p>
+
+        <p class="tekstrechts">
+            <strong>Klik hier om door te gaan!</strong>
+        </p>
     </div>
 
-    <div class="box" style="height:20vh; width: 28vw; background-color: #b6daf4;">
-        <h12>Instellingen</h12>
+    <div class="blok7">
+        <p class="tekst6">
+            Forum
+        </p>
+        <p class="tekstrechts">
+            <strong>Klik hier om door te gaan!</strong>
+        </p>
+    </div>
 
-        <img class="instellingen" src="../images/icon.png" />
+    <div class="blok8">
+        <p class="tekst6">
+            Gallerij van de community
+        </p>
+        <p class="tekstrechts">
+            <strong>Klik hier om door te gaan!</strong>
+        </p>
+    </div>
 
+    <div class="blok9">
+        <p class="tekst6">
+            Mijn projecten
+        </p>
+        <p class="tekstrechts">
+            <strong>Klik hier om door te gaan!</strong>
+        </p>
+    </div>
+
+    <div class="blok10">
+        <p class="tekst6">
+            Instellingen
+        </p>
+        <p class="tekstrechts">
+            <strong>Klik hier om door te gaan!</strong>
+        </p>
     </div>
 
 </div>
+</div>
 </body>
+
 </html>
