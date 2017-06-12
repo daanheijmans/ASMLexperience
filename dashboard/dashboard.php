@@ -57,10 +57,10 @@
         <p class="tekst5">
             Social media
         </p>
-        <img class="facebook" src="images/facebook.png" />
-        <img class="linkedin" src="images/linkedin.png" />
-        <img class="instagram" src="images/instagram.png" />
-        <img class="snapchat" src="images/snapchat.png" />
+        <img class="facebook" src="../images/facebook.png" />
+        <img class="linkedin" src="../images/linkedin.png" />
+        <img class="instagram" src="../images/instagram.png" />
+        <img class="snapchat" src="../images/snapchat.png" />
     </div>
 
     <div class="blok6">
