@@ -2,6 +2,8 @@
 
 session_start();
 
+// Als gebruiker al is ingelogd, wordt die geredirect naar het dashboard
+
 if( isset($_SESSION['user_id']) ){
 	header("Location: ../dashboard/dashboard.php");
 	exit;
