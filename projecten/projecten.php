@@ -1,4 +1,5 @@
 <?php 
+// Kijken of gebruiker is ingelogd
 
 session_start();
 if( ($_SESSION['user_id'])){
