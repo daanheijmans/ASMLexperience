@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.vertical-menu {
+    display: table-cell;
+    text-align: center;
+}
+
+.vertical-menu a {
+    background-color:rgb(36, 57, 125); /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    text-decoration: none; /* Remove underline from links */
+    height: 16.666666666667vh;
+    width: 5vw;
+}
+
+.vertical-menu img{
+    max-width: 100%;
+    margin-top: 50%;
+}
+
+.vertical-menu a:hover {
+    background-color:rgb(183, 218, 254); /* Dark grey background on mouse-over */
+    transform: scale(1.2,1); /* Standard syntax */
+}
+
+

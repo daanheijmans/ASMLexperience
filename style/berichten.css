@@ -1,0 +1,180 @@
+@font-face {
+    font-family: FiraSansCondensedRegular;
+    src: url(../fonts/FiraSansCondensed-Regular.otf);
+}
+
+@font-face {
+    font-family: FiraSansCondensedLight;
+    src: url(../fonts/FiraSansCondensed-Light.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F1F1F1;
+}
+
+.vertical-menu {
+    display: table-cell;
+    text-align: center;
+    float: left;
+}
+
+.vertical-menu a {
+    background-color:rgb(36, 57, 125); /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    text-decoration: none; /* Remove underline from links */
+    height: 16.666666666667vh;
+    width: 5vw;
+}
+
+.vertical-menu img{
+    max-width: 100%;
+    margin-top: 50%;
+}
+
+.vertical-menu a:hover {
+    background-color:rgb(183, 218, 254); /* Dark grey background on mouse-over */
+    transform: scale(1.2,1); /* Standard syntax */
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+br{
+    margin-bottom: 1.5em !important;
+}
+
+h2{
+    font-family: FiraSansCondensedRegular;
+    font-size: 1em;
+}
+
+p{
+    font-family: FiraSansCondensedLight;
+    font-size: 0.8em;
+}
+
+#wrapper{
+    width: 100vw;
+    height: 100vh;
+    float: right;
+    background-color: #F1F1F1;
+}
+
+#nieuw_bericht{
+    position: absolute;
+    margin-left: 11vw;
+    margin-top: 1vh;
+    font-family: FiraSansCondensedRegular;
+    font-size: 2em;
+}
+
+#menu{
+    width: 5vw;
+    height: 100vh;
+    float: left;
+}
+
+#berichten{
+    width: 80vw;
+    height: 90vh;
+    margin: 5vh auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+#heading{
+    width: 80vw;
+    height: 5vh;
+    font-family: FiraSansCondensedRegular;
+    font-size: 1.5em;
+    box-sizing: border-box;
+    border: 1px solid #FF6620;
+}
+
+#zender{
+    width: 15vw;
+    float: left;
+    margin-top: 1vh;
+}
+
+#onderwerp{
+    width: 20vw;
+    float: left;
+    margin-top: 1vh;
+}
+
+.onderwerp{
+    color: #113288;
+}
+
+#onderwerp1{
+    width: 20vw;
+    float: left;
+    margin-top: 1vh;
+}
+
+#datum{
+    width: 15vw;
+    float: left;
+    margin-top: 1vh;
+}
+
+#reageer{
+    height: 3vh;
+    float: left;
+    margin-left: 23vw;
+    margin-top: 1vh;
+}
+
+#doorsturen{
+    height: 3vh;
+    float: left;
+    margin-top: 1vh;
+}
+
+#verwijderen{
+    height: 3vh;
+    float: left;
+    margin-top: 1vh;
+}
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#bericht{
+    width: 80vw;
+    height: 5vh;
+    background-color: red;
+}
+
+#bericht_tekst{
+    display: none;
+    width: 80vw;
+    overflow: hidden;
+    font-family: FiraSansCondensedLight;
+    font-size: 2em;
+}
+
+#bericht_tekst1{
+    display: none;
+    width: 80vw;
+    overflow: hidden;
+    font-family: FiraSansCondensedLight;
+    font-size: 2em;
+}
+

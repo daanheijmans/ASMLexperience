@@ -1,0 +1,215 @@
+@font-face {
+    font-family: FiraSansCondensedRegular;
+    src: url(Fonts/FiraSansCondensed-Regular.otf);
+}
+
+@font-face {
+    font-family: FiraSansCondensedLight;
+    src: url(Fonts/FiraSansCondensed-Light.otf);
+}
+
+h1 {
+    font-family: 'FiraSansCondensedRegular', sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0.5vw;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+    background-color: #F1F1F1;
+}
+
+.vertical-menu {
+    display: table-cell;
+    text-align: center;
+    float:left;
+    position:fixed;
+}
+
+.vertical-menu a {
+    background-color:rgb(36, 57, 125); /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    text-decoration: none; /* Remove underline from links */
+    height: 16.666666666667vh;
+    width: 5vw;
+}
+
+.vertical-menu img{
+    max-width: 100%;
+    margin-top: 50%;
+}
+
+.vertical-menu a:hover {
+    background-color:rgb(183, 218, 254); /* Dark grey background on mouse-over */
+    transform: scale(1.2,1); /* Standard syntax */
+}
+
+.wrapper {
+    width: 100vw;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    color: white;
+    font-family: FiraSansCondensedLight;
+    font-size: 15em;
+    width:90vw;
+    height: auto;
+    float:right;
+    margin-right: 50px;
+}
+
+.flex-item{
+    width: 10vw;
+    height: 10vw;
+    margin: 2vw;
+    border: 1px solid #FF6620;
+	box-shadow: 5px 5px 10px #888888;
+	margin-bottom: 30px;
+	margin-left: 5vw;
+}
+
+#top, #bottom {
+    left: 0;
+    right: 0;
+    text-align:left;
+    font-size: 2vw;
+}
+
+#top {
+    top: 0;
+    border-bottom-style: none;
+
+}
+
+
+#bottom {
+    bottom: 0;
+    background-color: #b7daf4;
+    color: black;
+    border-width:1px;
+    border-bottom-style:solid;
+    border-color: #FF6620;
+	height:5vw;
+}
+
+.titel {
+    font-size: 0.7em !important;
+    text-align: center;
+    font-family: FiraSansCondensedLight;
+}
+
+.thumbnail {
+  position: relative;
+  width: 20vw;
+  height: 26.25vh;
+  overflow: hidden;
+}
+
+.thumbnail img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 20vw;
+  height: 13vw;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+.thumbnail img.portrait {
+  width: 100%;
+  height: auto;
+}
+
+.projects {
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+	font-family: 'FiraSansCondensedRegular', sans-serif;
+    font-size: 1.8em;
+    font-weight: bold;	
+}
+
+h3 {
+	font-family: 'FiraSansCondensedRegular', sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;	
+}
+
+p { 	
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;	
+	margin-top: 10px;
+	word-spacing: 0.2vw;
+}
+
+.text {
+	margin-left: 12.5vw;
+	width: 25vw;
+}
+
+.tags {
+	margin-top: 4vw;
+}
+
+hr {
+	border-color: orange;
+	margin-top: 5px;
+	width: 15vw;
+}
+
+.textrechts {
+	float: right;
+	margin-right: 5vw;
+	margin-top: -12.5vw;
+	width: 35vw;
+}
+
+.feedback {
+	margin-top: 0.5vw
+}
+
+.socialmedia {
+	margin-top: 4vw;
+}
+
+.socialmedia img {
+	width: 7%;
+}
+
+.flex-container2 {
+    display: -webkit-flex;
+    display: flex;
+    color: white;
+    font-family: FiraSansCondensedLight;
+    font-size: 15em;
+    width:90vw;
+    height: auto;
+    float:right;
+    margin-right: 50px;
+}
+
+.flex-item2{
+    width:30vw;
+    height: 15vw;
+    margin: 2vw;
+    border: 1px solid #FF6620;
+	box-shadow: 5px 5px 10px #888888;
+	margin-bottom: 30px;
+	margin-left: 5vw;
+}
+
+.rating img {
+	width: 15%;
+	float: right;
+	margin-right: 22vw;
+	margin-top: -1.3vw;
+}

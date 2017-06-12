@@ -1,0 +1,220 @@
+@font-face {
+    font-family: FiraSansCondensedRegular;
+    src: url(../fonts/FiraSansCondensed-Regular.otf);
+}
+
+@font-face {
+    font-family: FiraSansCondensedLight;
+    src: url(../fonts/FiraSansCondensed-Light.otf);
+}
+
+br{
+    margin-bottom: 1.5em !important;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+    background-color: #F1F1F1;
+}
+
+.vertical-menu {
+    display: table-cell;
+    text-align: center;
+    float: left;
+}
+
+.vertical-menu a {
+    background-color:rgb(36, 57, 125); /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    text-decoration: none; /* Remove underline from links */
+    height: 16.666666666667vh;
+    width: 5vw;
+}
+
+.vertical-menu img{
+    max-width: 100%;
+    margin-top: 50%;
+}
+
+.vertical-menu a:hover {
+    background-color:rgb(183, 218, 254); /* Dark grey background on mouse-over */
+    transform: scale(1.2,1); /* Standard syntax */
+}
+
+.wrapper{
+    width: 100vw;
+    background-color: #F1F1F1;
+}
+
+#menu{
+    width: 5vw;
+    height: 100vh;
+    float: left;
+}
+
+#links{
+    width: 40vw;
+    height: 100vh;
+    float: left;
+}
+
+#gegevens{
+    font-family: 'FiraSansCondensedRegular', sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-left: 15vw;
+    padding-top: 5vh;
+
+}
+
+#gegevens p{
+    line-height: 1.3em;
+}
+
+input{
+    font-family: 'FiraSansCondensedLight', sans-serif;
+    font-size: 100%;
+    height: 5vh;
+    width: 20vw;
+    border: 1px solid #FF6620;
+    font-size: 0.7em;
+}
+
+input:focus{
+    outline: none !important;
+    border: 1px solid #FF6620;
+}
+
+#rechts{
+    width: 55vw;
+    height: 100vh;
+    float: right;
+}
+
+#profielfoto{
+    width: 30vw;
+    height: 65vh;
+    position: relative;
+    top:40%;
+    left: 50%;
+    margin-left: -17.5vw;/* half width*/
+    margin-top: -32.5vh;/* half height*/
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#meldingen{
+    width: 55vw;
+    height: 15vh;
+    margin-top: 45vh;
+    font-family: 'FiraSansCondensedRegular', sans-serif;
+}
+
+#titel{
+    width: 55vw;
+    height: 5vh;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#nieuwe_berichten{
+    width: 55vw;
+    height: 5vh;
+    font-size: 2em;
+}
+
+#nieuwe_beoordelingen{
+    width: 55vw;
+    height: 5vh;
+    font-size: 2em;
+}
+
+.onoffswitch {
+    position: relative;
+    width: 100px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select: none;
+    float: left;
+}
+
+.onoffswitch2 {
+    position: relative;
+    width: 100px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select: none;
+    float: left;
+}
+
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #E3E3E3;
+    border-radius: 36px;
+}
+.onoffswitch-inner {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 36px;
+    padding: 0;
+    line-height: 36px;
+    font-size: 16px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "Aan";
+    padding-left: 10px;
+    background-color: #FFFFFF;
+    color: #2D2D2D;
+}
+.onoffswitch-inner:after {
+    content: "Uit";
+    padding-right: 10px;
+    background-color: #FFFFFF;
+    color: #2D2D2D;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block;
+    width: 36px;
+    margin: 0px;
+    background: #B6DAF4;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 60px;
+    border: 2px solid #E3E3E3;
+    border-radius: 36px;
+    transition: all 0.3s ease-in 0s;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px;
+    background-color: #113288;
+}
