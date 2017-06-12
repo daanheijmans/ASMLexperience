@@ -21,7 +21,7 @@
             Je laatst gemaakte project is beoordeeld.<br /><br /> <strong>Klik hier om de beoordeling te zien.</strong>
         </div>
     </div>
-
+  <!-- Hieronder zijn de verschillende blokken gemaakt waarin de inhoud van het dashboard te vinden is. Deze kunnen qua formaat aangepast worden naar de inhoud die erin staat-->
     <div class="box" style="height:20vh; width: 15vw; background-color: #b6daf4;">
         <h4>Inbox</h4>
     </div>
