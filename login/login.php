@@ -24,7 +24,7 @@ if(!empty($_POST['email']) && !empty($_POST['password'])):
 
 	$_SESSION['user_id'] = $results['id'];
 	$_SESSION['email'] = $_POST['email'];
-	header("Location: dashboard.html");
+	header("Location: ../dashboard/dashboard.php");
 	exit;
 
 
