@@ -1,11 +1,11 @@
 @font-face {
     font-family: FiraSansCondensedRegular;
-    src: url(Fonts/FiraSansCondensed-Regular.otf);
+    src: url(../Fonts/FiraSansCondensed-Regular.otf);
 }
 
 @font-face {
     font-family: FiraSansCondensedLight;
-    src: url(Fonts/FiraSansCondensed-Light.otf);
+    src: url(../Fonts/FiraSansCondensed-Light.otf);
 }
 
 * {
