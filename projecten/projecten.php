@@ -7,7 +7,7 @@ if( ($_SESSION['user_id'])){
 }
 
 else {
-	header("Location: nologin.php");
+	header("Location:../login/nologin.php");
 }
 
 ?>
