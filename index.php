@@ -30,7 +30,7 @@
             <span class="byline2">Wil jij jezelf uitdagen door middel van verschillende challenges? Dan is het ASML Experience platform echt iets voor jou! Door middel van dit platform kun jij je expertises laten zien aan ASML wat kan resulteren in een nieuwe werk/stageplek bij ASML!</span>                </div>
     </div>
     <ul class="actions">
-        <li><a href="dashboard/dashboard.php" class="button">Platform</a></li>
+        <li><a href="login/login.php" class="button">Inschrijven</a></li>
     </ul>
 </div>
 
