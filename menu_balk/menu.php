@@ -13,7 +13,7 @@
     <a href="../berichten/berichten.php"><img src="../images/mail.png"></a>
     <a href="../community/community.php"><img src="../images/community.png"></a>
     <a href="../projecten/projecten.php"><img src="../images/projecten.png"></a>
-    <a href="../forum/forum.php"><img src="../images/forum.png"></a>
+    <a href="../forum/index.php"><img src="../images/forum.png"></a>
 </div>
 </body>
 </html>
