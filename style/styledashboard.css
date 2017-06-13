@@ -202,7 +202,7 @@ body {
 
 .facebook {
     width: 4vw;
-    height: 6vh;
+    height: auto;
     position: relative;
     top: 4vh;
     left: 2vw;
@@ -210,7 +210,7 @@ body {
 
 .linkedin {
     width: 4vw;
-    height: 6vh;
+    height: auto;
     position: relative;
     top: 4vh;
     left: 3.5vw;
@@ -218,7 +218,7 @@ body {
 
 .instagram {
     width: 4vw;
-    height: 6vh;
+    height: auto;
     position: relative;
     top: 4vh;
     left: 5vw;
@@ -226,7 +226,7 @@ body {
 
 .snapchat {
     width: 4vw;
-    height: 6vh;
+    height: auto;
     position: relative;
     top: 4vh;
     left: 6vw;
