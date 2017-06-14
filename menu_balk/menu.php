@@ -14,6 +14,7 @@
     <a href="../community/community.php"><img src="../images/community.png"></a>
     <a href="../projecten/projecten.php"><img src="../images/projecten.png"></a>
     <a href="../forum/index.php"><img src="../images/forum.png"></a>
+    <a href="../login/logout.php"><img src="../images/logout.png"></a>
 </div>
 </body>
 </html>
