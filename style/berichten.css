@@ -31,7 +31,7 @@ body{
     color: black; /* Black text color */
     display: block; /* Make the links appear below each other */
     text-decoration: none; /* Remove underline from links */
-    height: 16.666666666667vh;
+    height: 14.285714285714285714285714285714vh;
     width: 5vw;
 }
 
